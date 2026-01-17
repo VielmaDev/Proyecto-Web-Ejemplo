@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" />
+    </head>
+
+<body>
+  <header>
+      <div class="container" id="banner">
+          <img src="img/logo.png" style="width: 205px; height: 205px;">
+      </div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <section>
+      <article>
+        <div class="container" id="title">
+          <h2>CREAMOS TU SITIO WEB</h2>
+        </div>
+
+        <div class="container" id="imagen">
+            <img  id="publicidad" 
+                  src="img/publicidad 1.png" 
+                  onmouseover="changeImage('img/publicidad 2.png')" 
+                  onmouseout="changeImage('img/publicidad 1.png')" 
+                  style="border-radius: 8px;">
+        </div>
+
+        <div class="container" id="publicidad">
+            <div class="container">
+                <h3>Impulsa tu emprendimiento con una Landing Page.</h3>
+          </div>
+
+          <div class="container">
+            <h4>¡Hazte conocer ya en la Web!</h4>
+          </div>
+
+          <div class="container">
+            <h5>Con una sitio Web profesional y personalizado.</h5>
+          </div>
+        </div>
+      </article>
+   </section>
+
+      <aside>
+        <div class="container" id="email">
+          <div class="container">
+              <h6>CONTACTANOS</h6>
+          </div>
+
+          <div class="container">
+            <img src="img/quill--mail-plus.png">
+            <p>vielma_dev@outlook.com</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside>
+        <div class="container" id="red">
+          <div class="container">
+              <h6>PORTAFOLIO | PERFIL</h6>
+          </div>
+
+          <div class="container">
+            <a href="https://github.com/vielmadev"><img src="img/ri--github-fill.png"></a>
+            <img src="img/entypo-social--linkedin-with-circle.png">
+          </div>
+        </div>
+      </aside>
+  </main>
+
+  <!--Script efecto Rolling-->
+  <script> 
+    function changeImage(imagePath) {
+      const imgElement = document.getElementById('publicidad');
+      imgElement.src = imagePath;
+    }
+  </script>
+
+  <!--footer-->
+  <footer>
+    <div class="container" id="copyright">
+       <p><small>@2024 VielmaDev</small></p>
+    </div>
+  </footer>
+</body>
+</html>
