@@ -78,7 +78,11 @@ article{
 }
 
 #publicidad h4{
+<<<<<<< HEAD
   font-size: 1.8rem;
+=======
+  font-size: 2.0rem;
+>>>>>>> main
   font-style: italic;
 }
 
