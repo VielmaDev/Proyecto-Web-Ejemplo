@@ -3,7 +3,7 @@ Cómo clonar el proyecto.
 1- Obtener la URL: Ir al repositorio remoto de GitHub y copiar la URL (HTTPS o SSH).
 2- Abrir la terminal o Git Bash.
 3- Navegar a la Carpeta usando cd para moverte a la carpeta donde quieres guardar el proyecto localmente (ej. cd C:\Proyectos\).
-4- Para clonar se ejecuta el comando git clone [URL_COPIADA] y presiona Enter (ej. git clone https://github.com/usuario/nombre-del-repo.git)
+4- Para clonar se ejecuta el comando git clone [URL_COPIADA] y presiona Enter (ej. git clone https://github.com/VielmaDev/Proyecto-Web-Ejemplo.git)
 
 Ejecutar el código en entorno local.
 
